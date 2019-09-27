@@ -1,7 +1,7 @@
 /** @flow */
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
-import Select from 'react-select'
+import Select from 'react-select-plus-duplicate'
 
 // Import directly to avoid Webpack bundling the parts of react-virtualized that we are not using
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer'
@@ -21,7 +21,7 @@ export default class VirtualizedSelect extends Component {
   static defaultProps = {
     async: false,
     maxHeight: 200,
-    optionHeight: 35
+    optionHeight: 135
   };
 
   constructor (props, context) {

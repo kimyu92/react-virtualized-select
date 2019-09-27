@@ -1,5 +1,7 @@
 Changelog
 ------------
+##### 3.1.4
+* Update react-select from 1.0.0 to 1.3.0
 
 ##### 3.1.3
 * Added `cursor: pointer` style by defalut to select options.

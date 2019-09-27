@@ -21,7 +21,7 @@ export default class VirtualizedSelect extends Component {
   static defaultProps = {
     async: false,
     maxHeight: 200,
-    optionHeight: 135
+    optionHeight: 35
   };
 
   constructor (props, context) {
